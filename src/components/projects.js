@@ -14,7 +14,7 @@ const ReactGrid = (props) => (
             You're currently exploring this project. To peek at the code click the GitHub button below.
         </CardText>
         <CardActions border>
-        <a href="https://github.com/CSchairez" rel="noopener noreferrer" target="_blank">
+        <a href="https://github.com/CSchairez/Portfolio" rel="noopener noreferrer" target="_blank">
             <Button style={{color: "#678AFF"}}>GitHub</Button>
         </a>
         </CardActions>

@@ -7,9 +7,9 @@ import {Link} from 'react-router-dom';
 function App() {
   
     return (
-      <div className="title "> 
+      <div className="title"> 
       <Layout>
-          <Header className="header-color" title="title" scroll>
+          <Header className="header-color" title="CS Chairez" scroll>
               <Navigation>
                   <Link to="/">Home</Link>
                   <Link to="/resume">Resume</Link>
