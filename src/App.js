@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import './App.css';
 import {Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/main';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { render } from '@testing-library/react';
 
 function App() {
-  
+
     return (
       <div className="title"> 
       <Layout>
@@ -32,6 +33,8 @@ function App() {
       </Layout>
   </div>
     );
-  
+    
+    
 }
+
 export default App;

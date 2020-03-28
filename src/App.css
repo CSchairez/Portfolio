@@ -1,13 +1,14 @@
 
 /* Landing Page */
 
+
 .header-color{
   background: #7F7FD5;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.landing-grid{
+.landing-grid {
   background: #7F7FD5;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -18,10 +19,11 @@
   height: 100%;
 }
 
-.avatar-img{    
-  height: 280px;
-  padding-top: 7em;
-  padding-bottom: 3.5em;
+.avatar-img{
+  padding-top: 11em;
+  height: 270px;
+  padding-bottom: 57px;
+  position: static;
 }
 
 .banner-text{
@@ -30,7 +32,8 @@
   width: 75%;
   margin: auto;
   border-radius: 10px;
-  height: 10;
+  height: 360px;
+
 }
 
 .banner-text h1{
@@ -38,6 +41,7 @@
   font-weight: bold;
   color: white;
   margin:auto;
+  position: static;
 }
 
 .banner-text hr{
