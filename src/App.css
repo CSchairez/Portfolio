@@ -97,12 +97,11 @@
 .contact-grid{
   text-align: center;
   justify-content: center;
-  width: 70%;
-  height: 700px;
+  width: 80%;
+  height: 600px;
   background: whitesmoke;
   color: black;
   border: 2px solid blue;
-  margin-bottom: 20px;
   opacity: .9;
   border-radius: 50px;
 }
