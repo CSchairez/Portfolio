@@ -1,5 +1,9 @@
 import React from 'react';
 import {Tab, Tabs, Card, CardTitle, CardActions, CardMenu, Button, IconButton, CardText, Cell, Grid } from 'react-mdl';
+import javaImage from "../java-image.jpg";
+import cppImage from "../cpp-logo.png";
+import rpiImage from "../rpi-image.png";
+import pyImage from "../python-logo.png";
 
 const ReactGrid = (props) => (
 
@@ -29,11 +33,11 @@ const JavaGrid = (props) => (
 
     /* Project 2 */
     <div className="projects-grid">
-    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >
-            {props.name}
+    <Card shadow={5} style={{minWidth: '450', margin: 'auto', color: '#323337'}}>
+        <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.creativeintl.net/wp-content/uploads/2015/05/java-logo.png) center / cover', backgroundColor: '#323337'}} >
+            
         </CardTitle>
-        <CardText>
+        <CardText style={{fontWeight: 'bold', color: '#434C6A'}}>
             Java projects.
         </CardText>
         <CardActions border>
@@ -51,10 +55,10 @@ const PythonGrid = (props) => (
 
     <div className="projects-grid">
     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >
-            {props.name}
+        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.auth0.com/blog/python-restful/logo.png) center / cover'}}>
+            
         </CardTitle>
-        <CardText>
+        <CardText style={{fontWeight: 'bold', color: '#434C6A'}}>
             Python projects.
         </CardText>
         <CardActions border>
@@ -73,10 +77,10 @@ const CGrid = (props) => (
     /* Project 4 */
     <div className="projects-grid">
     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >
-            {props.name}
+        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://4.bp.blogspot.com/-ITyVgxmC_EE/XDIwZVzz-7I/AAAAAAAAACo/J4oWXrgfZPA7GwHLyeGsNtMkPViR7vVWwCEwYBhgL/w280/66527a54c7fca71afb54cfe85e840338f4d4bb50.png) center / cover'}} >
+            
         </CardTitle>
-        <CardText>
+        <CardText style={{fontWeight: 'bold', color: '#434C6A'}}>
             C++ projects.
         </CardText>
         <CardActions border>
@@ -94,11 +98,11 @@ const RaspberryGrid = (props) => (
 
     /* Project 5 */
     <div className="projects-grid">
-    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >
-            {props.name}
+    <Card shadow={5} style={{minWidth: '450', margin: 'auto', backgroundColor: '#000000'}}>
+        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://lofrev.net/wp-content/photos/2016/06/raspberry_pi-_logo-250x150.png) center / cover'}} >
+            
         </CardTitle>
-        <CardText>
+        <CardText style={{fontWeight: 'bold', color: '#fff'}}>
             Raspberry Pi and electronics projects.
         </CardText>
         <CardActions border>
