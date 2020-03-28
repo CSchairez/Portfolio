@@ -1,9 +1,5 @@
 import React from 'react';
 import {Tab, Tabs, Card, CardTitle, CardActions, CardMenu, Button, IconButton, CardText, Cell, Grid } from 'react-mdl';
-import javaImage from "../java-image.jpg";
-import cppImage from "../cpp-logo.png";
-import rpiImage from "../rpi-image.png";
-import pyImage from "../python-logo.png";
 
 const ReactGrid = (props) => (
 
@@ -12,9 +8,9 @@ const ReactGrid = (props) => (
     <div className="projects-grid">
     <Card shadow={10} style={{minWidth: '450', margin: 'auto', background: '#696969'}}>
         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >
-            {props.name}
+            
         </CardTitle>
-        <CardText style={{color: '#fff'}}>
+        <CardText style={{fontWeight: 'bold', color: '#434C6A'}}>
             You're currently exploring this project. To peek at the code click the GitHub link below.
         </CardText>
         <CardActions border>
