@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/CSchairez.github.io/static/css/main.210cccd4.chunk.css",
+    "main.js": "/CSchairez.github.io/static/js/main.0b353be3.chunk.js",
+    "main.js.map": "/CSchairez.github.io/static/js/main.0b353be3.chunk.js.map",
+    "runtime-main.js": "/CSchairez.github.io/static/js/runtime-main.3a85116c.js",
+    "runtime-main.js.map": "/CSchairez.github.io/static/js/runtime-main.3a85116c.js.map",
+    "static/css/2.559fd73f.chunk.css": "/CSchairez.github.io/static/css/2.559fd73f.chunk.css",
+    "static/js/2.e934ec4d.chunk.js": "/CSchairez.github.io/static/js/2.e934ec4d.chunk.js",
+    "static/js/2.e934ec4d.chunk.js.map": "/CSchairez.github.io/static/js/2.e934ec4d.chunk.js.map",
+    "index.html": "/CSchairez.github.io/index.html",
+    "precache-manifest.0f032a6fd6edd18266db7432ecf251b9.js": "/CSchairez.github.io/precache-manifest.0f032a6fd6edd18266db7432ecf251b9.js",
+    "service-worker.js": "/CSchairez.github.io/service-worker.js",
+    "static/css/2.559fd73f.chunk.css.map": "/CSchairez.github.io/static/css/2.559fd73f.chunk.css.map",
+    "static/css/main.210cccd4.chunk.css.map": "/CSchairez.github.io/static/css/main.210cccd4.chunk.css.map",
+    "static/js/2.e934ec4d.chunk.js.LICENSE": "/CSchairez.github.io/static/js/2.e934ec4d.chunk.js.LICENSE",
+    "static/media/myAvatar.png": "/CSchairez.github.io/static/media/myAvatar.b06f94d4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3a85116c.js",
+    "static/css/2.559fd73f.chunk.css",
+    "static/js/2.e934ec4d.chunk.js",
+    "static/css/main.210cccd4.chunk.css",
+    "static/js/main.0b353be3.chunk.js"
+  ]
+}
