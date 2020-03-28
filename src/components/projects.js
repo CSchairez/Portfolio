@@ -11,7 +11,7 @@ const ReactGrid = (props) => (
             {props.name}
         </CardTitle>
         <CardText style={{color: '#fff'}}>
-            You're currently exploring this project. To peek at the code click the GitHub button below.
+            You're currently exploring this project. To peek at the code click the GitHub link below.
         </CardText>
         <CardActions border>
         <a href="https://github.com/CSchairez/Portfolio" rel="noopener noreferrer" target="_blank">
@@ -28,6 +28,7 @@ const ReactGrid = (props) => (
 const JavaGrid = (props) => (
 
     /* Project 2 */
+    <div className="projects-grid">
     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >
             {props.name}
@@ -43,11 +44,12 @@ const JavaGrid = (props) => (
             <IconButton name="share" />
         </CardMenu>
     </Card>
+    </div>
 );
 
 const PythonGrid = (props) => (
 
-    /* Project 3 */
+    <div className="projects-grid">
     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >
             {props.name}
@@ -63,17 +65,19 @@ const PythonGrid = (props) => (
             <IconButton name="share" />
         </CardMenu>
     </Card>
+    </div>
 );
 
 const CGrid = (props) => (
 
     /* Project 4 */
+    <div className="projects-grid">
     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >
             {props.name}
         </CardTitle>
         <CardText>
-            C++ projects..bleh.
+            C++ projects.
         </CardText>
         <CardActions border>
             <Button colored>GitHub</Button>
@@ -83,11 +87,13 @@ const CGrid = (props) => (
             <IconButton name="share" />
         </CardMenu>
     </Card>
+    </div>
 );
 
 const RaspberryGrid = (props) => (
 
     /* Project 5 */
+    <div className="projects-grid">
     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >
             {props.name}
@@ -103,6 +109,7 @@ const RaspberryGrid = (props) => (
             <IconButton name="share" />
         </CardMenu>
     </Card>
+    </div>
 );
 
 class Projects extends React.Component {

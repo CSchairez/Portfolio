@@ -6,7 +6,7 @@ class Contact extends Component{
     render(){
         return(
             <div className="contact-body">
-                <Grid className="contact-grid">
+                <Grid shadow={10} className="contact-grid">
                     <Cell col={6}>
                         <h2>Michael Chairez</h2>
                         <img
@@ -14,7 +14,7 @@ class Contact extends Component{
                         alt="avatar"
                         style={{height: '275px'}}
                         />
-                        <p style={{width: '75%', margin: 'auto', paddingTop: '1em' }}>Lorem Ipsum is simply dummy text</p>
+                        <p style={{width: '75%', margin: 'auto', paddingTop: '1em' }}> Currently interested in SWE Interships for Summer 2020.</p>
                     </Cell>
                     <Cell col={6}>
                         <h2>Contact Me</h2>
@@ -22,12 +22,6 @@ class Contact extends Component{
 
                         <div className="contact-list">
                         <List>
-                            <ListItem>
-                                <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                                    <i className="fa fa-mobile" aria-hidden="true"/>
-                                    (408) 627-9595
-                                </ListItemContent>
-                            </ListItem>
                             <ListItem>
                                 <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                                     <i className="fa fa-envelope" aria-hidden="true"/>

@@ -17,11 +17,11 @@ class Landing extends Component{
                     />
 
                     <div className="banner-text">
-                        <h1>Full Stack Developer </h1>
+                        <h1>SWE Internships 2020! </h1>
 
                     <hr/>
 
-                    <p>Java | C++ | Python | JavaScript | React | NodeJS </p>
+                    <p>Java | C++ | Python | JavaScript | React | NodeJS | Git </p>
                 <div className="social-links">
                     {/* LinkedIn  */}
                     <a href="https://www.linkedin.com/in/michael-chairez-42a679168/" rel="noopener noreferrer" target="_blank">

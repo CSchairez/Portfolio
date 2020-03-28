@@ -31,8 +31,6 @@ class Resume extends Component{
                             <p>(408) 627-9595</p>
                             <h5>Email</h5>
                             <p>a.chairezmichael@gmail.com</p>
-                            <h5>Website</h5>
-                            <p>mywebsite.com</p>
                             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>                    
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
@@ -65,7 +63,7 @@ class Resume extends Component{
                     coName2="Ricoh USA"
                     coname2Desc="Greet and welcome clients and visitors to the new corporate tech site in East Palo Alto, CA. 
                         Perform daily tasks such as issuing badges, granting building access to appropriate individuals, schedule meetings, 
-                        and other administrative help when needed."
+                        and other administrative tasks."
                     />
 
                     <hr style={{borderTop: "3px solid #fff"}} />
@@ -73,7 +71,7 @@ class Resume extends Component{
                     <h2>Technical Skills</h2>
                     <Skills
                     languages="C++, Java, Python, JavaScript"
-                    otherTech="React, NodeJS, HTML, CSS, MySQL"
+                    otherTech="React, NodeJS, HTML, CSS, Git"
                     />
                     </Cell>
                     
