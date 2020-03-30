@@ -6,7 +6,7 @@ const ReactGrid = (props) => (
     /* Project 1 */
  
     <div className="projects-grid">
-    <Card shadow={10} style={{minWidth: '450', margin: 'auto', background: '#696969'}}>
+    <Card shadow={10} style={{minWidth: '450', margin: 'auto', background: '#696969', borderRadius:"10px"}}>
         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >
             
         </CardTitle>
@@ -22,6 +22,8 @@ const ReactGrid = (props) => (
             <IconButton name="share" />
         </CardMenu>
     </Card>
+    
+    
     </div>
 );
 
@@ -29,7 +31,7 @@ const JavaGrid = (props) => (
 
     /* Project 2 */
     <div className="projects-grid">
-    <Card shadow={5} style={{minWidth: '450', margin: 'auto', color: '#323337'}}>
+    <Card shadow={5} style={{minWidth: '450', margin: 'auto', color: '#323337', borderRadius:"10px"}}>
         <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.creativeintl.net/wp-content/uploads/2015/05/java-logo.png) center / cover', backgroundColor: '#323337'}} >
             
         </CardTitle>
@@ -50,7 +52,7 @@ const JavaGrid = (props) => (
 const PythonGrid = (props) => (
 
     <div className="projects-grid">
-    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+    <Card shadow={5} style={{minWidth: '450', margin: 'auto', borderRadius:"10px"}}>
         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.auth0.com/blog/python-restful/logo.png) center / cover'}}>
             
         </CardTitle>
@@ -68,20 +70,21 @@ const PythonGrid = (props) => (
     </div>
 );
 
-const CGrid = (props) => (
+const WebGrid = (props) => (
 
     /* Project 4 */
     <div className="projects-grid">
-    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://4.bp.blogspot.com/-ITyVgxmC_EE/XDIwZVzz-7I/AAAAAAAAACo/J4oWXrgfZPA7GwHLyeGsNtMkPViR7vVWwCEwYBhgL/w280/66527a54c7fca71afb54cfe85e840338f4d4bb50.png) center / cover'}} >
+    <Card shadow={5} style={{minWidth: '450', margin: 'auto', borderRadius:"10px"}}>
+        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://pngimage.net/wp-content/uploads/2018/06/html-css-png-2.png) center / cover'}} >
             
         </CardTitle>
         <CardText style={{fontWeight: 'bold', color: '#434C6A'}}>
-            C++ projects.
+            Web Development projects.
         </CardText>
         <CardActions border>
-        <p colored>Coming soon!</p>
-
+        <a href="https://github.com/CSchairez/clubProject" rel="noopener noreferrer" target="_blank">
+            <Button style={{color: "#678AFF"}}>GitHub</Button>
+        </a>
         </CardActions>
         <CardMenu style={{color: '#fff'}}>
             <IconButton name="share" />
@@ -94,15 +97,15 @@ const RaspberryGrid = (props) => (
 
     /* Project 5 */
     <div className="projects-grid">
-    <Card shadow={5} style={{minWidth: '450', margin: 'auto', backgroundColor: '#000000'}}>
+    <Card shadow={5} style={{minWidth: '450', margin: 'auto', backgroundColor: '#000000', borderRadius:"10px"}}>
         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://lofrev.net/wp-content/photos/2016/06/raspberry_pi-_logo-250x150.png) center / cover'}} >
             
         </CardTitle>
-        <CardText style={{fontWeight: 'bold', color: '#fff'}}>
+        <CardText style={{fontWeight: 'bold', color: '#ffff'}}>
             Raspberry Pi and electronics projects.
         </CardText>
         <CardActions border>
-        <p colored>Coming soon!</p>
+        <p style={{color:"#fff"}}>Coming soon!</p>
 
         </CardActions>
         <CardMenu style={{color: '#fff'}}>
@@ -127,7 +130,7 @@ class Projects extends React.Component {
             case 2:
                 return (<div><PythonGrid name="This is Python"/></div>);
             case 3:
-                return(<div><CGrid name="This is C++"/></div>);
+                return(<div><WebGrid name="This is WebDev"/></div>);
             default:
                 return (<div><RaspberryGrid name="This is Raspberry Pi"/></div>);
         }
@@ -142,7 +145,7 @@ class Projects extends React.Component {
                     <Tab>React</Tab>
                     <Tab>Java</Tab>
                     <Tab>Python</Tab>
-                    <Tab>C++</Tab>
+                    <Tab>Web Dev</Tab>
                     <Tab>Raspberry Pi</Tab>
                 </Tabs>
                     <Grid>
