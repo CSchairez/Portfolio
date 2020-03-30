@@ -14,7 +14,7 @@ const ReactGrid = (props) => (
             You're currently exploring this project. To peek at the code click the GitHub link below.
         </CardText>
         <CardActions border>
-        <a href="https://github.com/CSchairez/Portfolio" rel="noopener noreferrer" target="_blank">
+        <a href="https://github.com/CSchairez/Portfolio/tree/master" rel="noopener noreferrer" target="_blank">
             <Button style={{color: "#678AFF"}}>GitHub</Button>
         </a>
         </CardActions>
@@ -37,7 +37,7 @@ const JavaGrid = (props) => (
             Java projects.
         </CardText>
         <CardActions border>
-            <Button colored>GitHub</Button>
+            <p colored>Coming soon!</p>
 
         </CardActions>
         <CardMenu style={{color: '#fff'}}>
@@ -58,7 +58,7 @@ const PythonGrid = (props) => (
             Python projects.
         </CardText>
         <CardActions border>
-            <Button colored>GitHub</Button>
+        <p colored>Coming soon!</p>
 
         </CardActions>
         <CardMenu style={{color: '#fff'}}>
@@ -80,7 +80,7 @@ const CGrid = (props) => (
             C++ projects.
         </CardText>
         <CardActions border>
-            <Button colored>GitHub</Button>
+        <p colored>Coming soon!</p>
 
         </CardActions>
         <CardMenu style={{color: '#fff'}}>
@@ -102,7 +102,7 @@ const RaspberryGrid = (props) => (
             Raspberry Pi and electronics projects.
         </CardText>
         <CardActions border>
-            <Button colored>GitHub</Button>
+        <p colored>Coming soon!</p>
 
         </CardActions>
         <CardMenu style={{color: '#fff'}}>

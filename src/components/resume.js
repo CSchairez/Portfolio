@@ -19,10 +19,10 @@ class Resume extends Component{
                             />
                             </div>
                             
-                            <h2 style={{paddingTop: '2em'}}>Michael Chairez</h2>
+                            <h3 style={{paddingTop: '2em'}}>Michael Chairez</h3>
                             <h4 style={{color: 'black'}}>Computer Science Student (Senior)</h4>
                             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-                            <p>Rising Senior at CSUEB, I am currently interested in Software Development internships for Summer 2020.</p>
+                            <p>Senior at CSUEB, I am currently seeking Software Development internships for Summer 2020.</p>
                             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                             <h5>School</h5>
                             <p>California State University, East Bay</p>
@@ -31,12 +31,12 @@ class Resume extends Component{
                             <p>(408) 627-9595</p>
                             <h5>Email</h5>
                             <p>a.chairezmichael@gmail.com</p>
-                            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>                    
+                            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+                           
+                                           
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
-                    <h2>Education</h2>
-
-
+                    <h4>Education</h4>
                     <Education 
                     eDates="2016 - Fall 2020"
                     schoolName="California State University, East Bay"
@@ -48,7 +48,7 @@ class Resume extends Component{
 
                     <hr style={{borderTop: "3px solid #fff"}} />
 
-                    <h2>Experience</h2>
+                    <h4>Experience</h4>
                     <Experience
                     eDates="July 2018 - Present"
                     city1="Lafayette, CA"
@@ -68,7 +68,7 @@ class Resume extends Component{
 
                     <hr style={{borderTop: "3px solid #fff"}} />
 
-                    <h2>Technical Skills</h2>
+                    <h3>Technical Skills</h3>
                     <Skills
                     languages="C++, Java, Python, JavaScript"
                     otherTech="React, NodeJS, HTML, CSS, Git"

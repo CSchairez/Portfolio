@@ -13,10 +13,13 @@
   background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
+  margin: auto;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  justify-content: center;
 }
 
 .avatar-img{
@@ -32,12 +35,12 @@
   width: 75%;
   margin: auto;
   border-radius: 10px;
-  height: 360px;
+  height: 420px;
 
 }
 
 .banner-text h1{
-  font-size: 66px;
+  font-size: 56px;
   font-weight: bold;
   color: white;
   margin:auto;
@@ -70,9 +73,19 @@
 }
 
 .bottom-links h1{
-  font-size: 6em;
+  font-size: 5em;
   opacity: .9;
   color: white;
+}
+
+/* Resume Page */
+.resume-grid {
+  background: #7F7FD5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin: auto;
+  width: 100%;
+  height: 50em;
 }
 
 /* Projects Page */
@@ -101,7 +114,7 @@
 .contact-grid{
   text-align: center;
   justify-content: center;
-  width: 80%;
+  width: 85%;
   height: 600px;
   background: whitesmoke;
   color: black;
@@ -109,10 +122,10 @@
   opacity: .9;
   border-radius: 50px;
 }
-
 .contact-grid h2 {
   font-family: 'Anton', sans-serif;
   padding-top: 2em;
+  
 }
 
 .contact-grid p {
@@ -121,9 +134,8 @@
 }
 
 .contact-grid hr {
-  border-top: 5px dotted black;
-  width: 50%;
-  margin: auto;
+  border-top: 5px solid lightslategrey;
+  width: 70%;
 }
 
 .contact-list i{
