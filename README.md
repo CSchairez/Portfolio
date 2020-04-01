@@ -11,7 +11,7 @@ In the project directory, you can run:
  `npm start`
 Runs the app in the development mode.<br />
 
-Or view it here [Portfolio Site](https://portfolio-e7816.firebaseapp.com/)
+Or view it here: [Portfolio Site](https://portfolio-e7816.firebaseapp.com/)
 
 ----------------
 # Landing Page
