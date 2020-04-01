@@ -8,11 +8,12 @@ This website displays my resume, projects, and links to my LinkedIn and GitHub
 
 In the project directory, you can run:
 
-### `npm start`
-
+ `npm start`
 Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+Or view it here [Portfolio Site](https://portfolio-e7816.firebaseapp.com/)
+
+----------------
 # Landing Page
 
 ![](screenshots/landingShot.PNG)
